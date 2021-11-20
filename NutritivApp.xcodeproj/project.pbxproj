@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9345C7052741EC38000ED8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345C7042741EC38000ED8B9 /* AppDelegate.swift */; };
+		9345C7072741EC38000ED8B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345C7062741EC38000ED8B9 /* SceneDelegate.swift */; };
+		9345C7092741EC38000ED8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345C7082741EC38000ED8B9 /* ViewController.swift */; };
+		9345C70C2741EC38000ED8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9345C70A2741EC38000ED8B9 /* Main.storyboard */; };
+		9345C70E2741EC39000ED8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9345C70D2741EC39000ED8B9 /* Assets.xcassets */; };
+		9345C7112741EC39000ED8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9345C70F2741EC39000ED8B9 /* LaunchScreen.storyboard */; };
+		9367B7F22745897100021C5A /* NuevoPacienteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367B7F12745897100021C5A /* NuevoPacienteVC.swift */; };
+		939AEA6F2745EFE60062EC3C /* EnumPacienteDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AEA6E2745EFE60062EC3C /* EnumPacienteDetalle.swift */; };
+		93A5D89F2748A46200BE2C08 /* Notas_sesion.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A5D89E2748A46200BE2C08 /* Notas_sesion.png */; };
+		93A5D8A22748A47800BE2C08 /* oauth.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A5D8A12748A47800BE2C08 /* oauth.png */; };
+		93A5D8A52748A48500BE2C08 /* calendarDays.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A5D8A42748A48500BE2C08 /* calendarDays.png */; };
+		93A5D8A82748A49200BE2C08 /* nueva_sesion.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A5D8A72748A49200BE2C08 /* nueva_sesion.png */; };
+		93A5D8AB2748A49B00BE2C08 /* add_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A5D8AA2748A49B00BE2C08 /* add_button.png */; };
+		93A824D92744C40B008F2E6C /* InfoSesionPacienteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A824D82744C40B008F2E6C /* InfoSesionPacienteVC.swift */; };
+		93A824E12744C77F008F2E6C /* ListaSesionesPacientesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A824E02744C77F008F2E6C /* ListaSesionesPacientesVC.swift */; };
+		93ABE6D22743114400EA99F7 /* ListaPacienteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE6D12743114400EA99F7 /* ListaPacienteVC.swift */; };
+		93ABE6D52743116500EA99F7 /* InfoPacienteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABE6D42743116500EA99F7 /* InfoPacienteVC.swift */; };
+		93FBD5202747214100C9A85B /* Nutriologa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93FBD51F2747214100C9A85B /* Nutriologa.jpeg */; };
+		93FBD54C27473C6700C9A85B /* splash_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FBD54B27473C6600C9A85B /* splash_image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9345C7012741EC38000ED8B9 /* NutritivApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritivApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9345C7042741EC38000ED8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9345C7062741EC38000ED8B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9345C7082741EC38000ED8B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9345C70B2741EC38000ED8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9345C70D2741EC39000ED8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9345C7102741EC39000ED8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9345C7122741EC39000ED8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9367B7F12745897100021C5A /* NuevoPacienteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoPacienteVC.swift; sourceTree = "<group>"; };
+		939AEA6E2745EFE60062EC3C /* EnumPacienteDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPacienteDetalle.swift; sourceTree = "<group>"; };
+		93A5D89E2748A46200BE2C08 /* Notas_sesion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notas_sesion.png; sourceTree = "<group>"; };
+		93A5D8A12748A47800BE2C08 /* oauth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oauth.png; sourceTree = "<group>"; };
+		93A5D8A42748A48500BE2C08 /* calendarDays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarDays.png; sourceTree = "<group>"; };
+		93A5D8A72748A49200BE2C08 /* nueva_sesion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nueva_sesion.png; sourceTree = "<group>"; };
+		93A5D8AA2748A49B00BE2C08 /* add_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_button.png; sourceTree = "<group>"; };
+		93A824D82744C40B008F2E6C /* InfoSesionPacienteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSesionPacienteVC.swift; sourceTree = "<group>"; };
+		93A824E02744C77F008F2E6C /* ListaSesionesPacientesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaSesionesPacientesVC.swift; sourceTree = "<group>"; };
+		93ABE6D12743114400EA99F7 /* ListaPacienteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPacienteVC.swift; sourceTree = "<group>"; };
+		93ABE6D42743116500EA99F7 /* InfoPacienteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPacienteVC.swift; sourceTree = "<group>"; };
+		93FBD51F2747214100C9A85B /* Nutriologa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nutriologa.jpeg; sourceTree = "<group>"; };
+		93FBD54B27473C6600C9A85B /* splash_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9345C6FE2741EC38000ED8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9345C6F82741EC38000ED8B9 = {
+			isa = PBXGroup;
+			children = (
+				9345C7032741EC38000ED8B9 /* NutritivApp */,
+				9345C7022741EC38000ED8B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9345C7022741EC38000ED8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9345C7012741EC38000ED8B9 /* NutritivApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9345C7032741EC38000ED8B9 /* NutritivApp */ = {
+			isa = PBXGroup;
+			children = (
+				93A5D8AA2748A49B00BE2C08 /* add_button.png */,
+				93A5D8A72748A49200BE2C08 /* nueva_sesion.png */,
+				93A5D8A42748A48500BE2C08 /* calendarDays.png */,
+				93A5D8A12748A47800BE2C08 /* oauth.png */,
+				93A5D89E2748A46200BE2C08 /* Notas_sesion.png */,
+				93FBD54B27473C6600C9A85B /* splash_image.png */,
+				93FBD51F2747214100C9A85B /* Nutriologa.jpeg */,
+				9345C7042741EC38000ED8B9 /* AppDelegate.swift */,
+				9345C7062741EC38000ED8B9 /* SceneDelegate.swift */,
+				9345C7082741EC38000ED8B9 /* ViewController.swift */,
+				93ABE6D12743114400EA99F7 /* ListaPacienteVC.swift */,
+				93ABE6D42743116500EA99F7 /* InfoPacienteVC.swift */,
+				93A824E02744C77F008F2E6C /* ListaSesionesPacientesVC.swift */,
+				93A824D82744C40B008F2E6C /* InfoSesionPacienteVC.swift */,
+				9367B7F12745897100021C5A /* NuevoPacienteVC.swift */,
+				939AEA6E2745EFE60062EC3C /* EnumPacienteDetalle.swift */,
+				9345C70A2741EC38000ED8B9 /* Main.storyboard */,
+				9345C70D2741EC39000ED8B9 /* Assets.xcassets */,
+				9345C70F2741EC39000ED8B9 /* LaunchScreen.storyboard */,
+				9345C7122741EC39000ED8B9 /* Info.plist */,
+			);
+			path = NutritivApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9345C7002741EC38000ED8B9 /* NutritivApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9345C7152741EC39000ED8B9 /* Build configuration list for PBXNativeTarget "NutritivApp" */;
+			buildPhases = (
+				9345C6FD2741EC38000ED8B9 /* Sources */,
+				9345C6FE2741EC38000ED8B9 /* Frameworks */,
+				9345C6FF2741EC38000ED8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutritivApp;
+			productName = NutritivApp;
+			productReference = 9345C7012741EC38000ED8B9 /* NutritivApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9345C6F92741EC38000ED8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9345C7002741EC38000ED8B9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9345C6FC2741EC38000ED8B9 /* Build configuration list for PBXProject "NutritivApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9345C6F82741EC38000ED8B9;
+			productRefGroup = 9345C7022741EC38000ED8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9345C7002741EC38000ED8B9 /* NutritivApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9345C6FF2741EC38000ED8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FBD54C27473C6700C9A85B /* splash_image.png in Resources */,
+				9345C7112741EC39000ED8B9 /* LaunchScreen.storyboard in Resources */,
+				93A5D8A82748A49200BE2C08 /* nueva_sesion.png in Resources */,
+				93A5D89F2748A46200BE2C08 /* Notas_sesion.png in Resources */,
+				9345C70E2741EC39000ED8B9 /* Assets.xcassets in Resources */,
+				9345C70C2741EC38000ED8B9 /* Main.storyboard in Resources */,
+				93A5D8A22748A47800BE2C08 /* oauth.png in Resources */,
+				93A5D8A52748A48500BE2C08 /* calendarDays.png in Resources */,
+				93FBD5202747214100C9A85B /* Nutriologa.jpeg in Resources */,
+				93A5D8AB2748A49B00BE2C08 /* add_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9345C6FD2741EC38000ED8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A824E12744C77F008F2E6C /* ListaSesionesPacientesVC.swift in Sources */,
+				939AEA6F2745EFE60062EC3C /* EnumPacienteDetalle.swift in Sources */,
+				9345C7092741EC38000ED8B9 /* ViewController.swift in Sources */,
+				9345C7052741EC38000ED8B9 /* AppDelegate.swift in Sources */,
+				93A824D92744C40B008F2E6C /* InfoSesionPacienteVC.swift in Sources */,
+				9345C7072741EC38000ED8B9 /* SceneDelegate.swift in Sources */,
+				93ABE6D22743114400EA99F7 /* ListaPacienteVC.swift in Sources */,
+				93ABE6D52743116500EA99F7 /* InfoPacienteVC.swift in Sources */,
+				9367B7F22745897100021C5A /* NuevoPacienteVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9345C70A2741EC38000ED8B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345C70B2741EC38000ED8B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9345C70F2741EC39000ED8B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345C7102741EC39000ED8B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9345C7132741EC39000ED8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9345C7142741EC39000ED8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9345C7162741EC39000ED8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NutritivApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.vast.NutritivApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9345C7172741EC39000ED8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NutritivApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.vast.NutritivApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9345C6FC2741EC38000ED8B9 /* Build configuration list for PBXProject "NutritivApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345C7132741EC39000ED8B9 /* Debug */,
+				9345C7142741EC39000ED8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9345C7152741EC39000ED8B9 /* Build configuration list for PBXNativeTarget "NutritivApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345C7162741EC39000ED8B9 /* Debug */,
+				9345C7172741EC39000ED8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9345C6F92741EC38000ED8B9 /* Project object */;
+}
